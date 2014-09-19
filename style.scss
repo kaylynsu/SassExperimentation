@@ -1,4 +1,17 @@
 $main-color: red;
+@mixin round-corners($radius : 5px){
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+#box{
+	@include round-corners;
+	height: 30px;
+	width: 40px;
+	background: #FFFFFF;
+}
+
 body{
 	height: 300px;
 	width: 400px;
@@ -8,7 +21,8 @@ body{
 ol{
 	background: purple;
 	li{
-		display: static;
+		display: inline;
+		margin: 20px;
 	}
 	
 }
