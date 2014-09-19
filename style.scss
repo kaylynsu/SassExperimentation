@@ -1,0 +1,14 @@
+$main-color: red;
+body{
+	height: 300px;
+	width: 400px;
+	background: $main-color;
+}
+
+ol{
+	background: purple;
+	li{
+		display: static;
+	}
+	
+}

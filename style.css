@@ -1,0 +1,11 @@
+body {
+  height: 300px;
+  width: 400px;
+  background: red; }
+
+ol {
+  background: purple; }
+  ol li {
+    display: static; }
+
+/*# sourceMappingURL=style.css.map */
